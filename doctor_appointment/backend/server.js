@@ -19,7 +19,7 @@ connectCloudinary()
 
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:3000","http://localhost:3001","https://adminpaneelggg.netlify.app","https://doctorbookingbyvinoth.netlify.app/"],
+    origin: ["http://localhost:3000","http://localhost:3001","https://adminpaneelggg.netlify.app","https://doctorbookingbyvinoth.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }))
